@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poultry Farm</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Poultry Farm</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/bowler.webp" alt="Poultry Farm">
+        <div class="overlay">
+            <h1>Fresh & Healthy Poultry Products</h1>
+            <p>Providing the best quality poultry directly from the farm.</p>
+            <button class="btn btn-primary" onclick="showAlert()">Contact Us</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5 text-center">
+        <h2>About Us</h2>
+        <p>We are a family-owned poultry farm dedicated to providing fresh, high-quality poultry products with sustainable farming methods.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="container my-5">
+        <h2 class="text-center">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/poultry1.jpg" class="card-img-top" alt="Fresh Eggs">
+                    <div class="card-body">
+                        <h5 class="card-title">Fresh Eggs</h5>
+                        <p class="card-text">We offer farm-fresh eggs daily.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/poultry.jpg" class="card-img-top" alt="Broiler Chicken">
+                    <div class="card-body">
+                        <h5 class="card-title">Broiler Chicken</h5>
+                        <p class="card-text">High-quality broiler chicken, ready for sale.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/poultry2.jpg" class="card-img-top" alt="Organic Feed">
+                    <div class="card-body">
+                        <h5 class="card-title">Organic Feed</h5>
+                        <p class="card-text">Nutritious feed for healthy poultry growth.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5 text-center">
+        <h2>Contact Us</h2>
+        <p>Email: info@poultryfarm.com | Phone: +123-456-7890</p>
+        <button class="btn btn-success" onclick="showAlert()">Send Message</button>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
